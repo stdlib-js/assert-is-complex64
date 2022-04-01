@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/assert-is-complex64",
+  "version": "0.0.0",
+  "description": "Test if a value is a 64-bit complex number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-complex64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "is",
+    "iscomplex",
+    "complex64",
+    "64-bit",
+    "float32",
+    "single",
+    "single-precision",
+    "ieee754",
+    "type",
+    "check",
+    "test",
+    "validate",
+    "isvalid",
+    "valid"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
