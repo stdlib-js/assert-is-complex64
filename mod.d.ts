@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Test if a value is a 64-bit complex number.
+* Tests if a value is a 64-bit complex number.
 *
-* @module @stdlib/assert-is-complex64
+* @param value - value to test
+* @returns boolean indicating if a value is a 64-bit complex number
 *
 * @example
-* var Complex64 = require( '@stdlib/complex-float32' );
-* var isComplex64 = require( '@stdlib/assert-is-complex64' );
+* var Complex64 = require( `@stdlib/complex/float32` );
 *
 * var x = new Complex64( 4.0, 2.0 );
 *
 * var bool = isComplex64( x );
 * // returns true
 */
-
-// MODULES //
-
-var isComplex64 = require( './main.js' );
+declare function isComplex64( value: any ): value is Complex64;
 
 
 // EXPORTS //
 
-module.exports = isComplex64;
+export = isComplex64;
