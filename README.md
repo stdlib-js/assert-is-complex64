@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64@esm/index.mjs';
+import isComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64@v0.1.0-esm/index.mjs';
 ```
 
 #### isComplex64( value )
@@ -76,7 +76,7 @@ var bool = isComplex64( x );
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
-import isComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64@esm/index.mjs';
+import isComplex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex64@v0.1.0-esm/index.mjs';
 
 var out = isComplex64( new Complex64( 2.0, 2.0 ) );
 // returns true
