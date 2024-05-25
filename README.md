@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Test if a value is a [64-bit complex number][@stdlib/complex/float32].
+> Test if a value is a [64-bit complex number][@stdlib/complex/float32/ctor].
 
 <section class="installation">
 
@@ -65,7 +65,7 @@ var isComplex64 = require( '@stdlib/assert-is-complex64' );
 
 #### isComplex64( value )
 
-Tests if a value is a [64-bit complex number][@stdlib/complex/float32].
+Tests if a value is a [64-bit complex number][@stdlib/complex/float32/ctor].
 
 ```javascript
 var Complex64 = require( '@stdlib/complex-float32-ctor' );
@@ -195,7 +195,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-complex64/main/LICENSE
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
+[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32
 
 <!-- <related-links> -->
 
